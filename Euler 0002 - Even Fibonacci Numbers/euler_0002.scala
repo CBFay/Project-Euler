@@ -5,13 +5,11 @@ object Solution {
     def main(args : Array[String]) {
         var a = 1
         var b = 2
-        var sum = 0
+        var s = 0 // sum
         while (b < 4000000) {
-            if (b % 2 == 0)  {
-                sum += b
-            }
+            if (b % 2 == 0) {s += b}
             b += a
-            a = b - a
+            a = b-a
         }
         println(sum)
     }
