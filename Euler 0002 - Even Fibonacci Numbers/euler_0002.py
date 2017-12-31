@@ -1,7 +1,7 @@
 # https://projecteuler.net/problem=2
 # created 12.30.2017 by CB Fay
 
-s = 0
+s = 0 # sum
 a = 1
 b = 2
 
