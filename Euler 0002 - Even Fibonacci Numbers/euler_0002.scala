@@ -1,7 +1,7 @@
 // https://projecteuler.net/problem=2
 // created 12.30.2017 by CB Fay
 
-object Solution {
+object euler_0002 {
     def main(args : Array[String]) {
         var s = 0 // sum
         var a = 1
